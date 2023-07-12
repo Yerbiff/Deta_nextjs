@@ -1,0 +1,69 @@
+{
+  "main": [
+    {
+      "name": "Strona główna",
+      "url": "/"
+    },
+    {
+      "name": "Cennik",
+      "url": "/cennik"
+    },
+    {
+      "name": "kontakt",
+      "url": "/kontakt"
+    },
+    {
+      "name": "FAQ",
+      "url": "/faq"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Impactia",
+      "menu": [
+        {
+          "text": "Cennik",
+          "url": "/cennik"
+        },
+        {
+          "text": "Quick Start",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "menu": [
+        {
+          "text": "Features",
+          "url": "#"
+        },
+        {
+          "text": "Platform",
+          "url": "#"
+        },
+        {
+          "text": "Cennik",
+          "url": "/cennik"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "menu": [
+        {
+          "text": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}

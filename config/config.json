@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Impactia",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "48",
+    "logo_text": "Impactia"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Współpraca",
+    "link": "/kontakt"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Założona na bazie pasji i kreatywności, nasza agencja reklamowa oferuje profesjonalne usługi marketingowe. Skontaktuj się z nami już dziś!",
+    "copyright": "Projekt i rozwój: Impactia"
+  },
+
+  "metadata": {
+    "meta_author": "Me",
+    "meta_image": "ogimage",
+    "meta_description": "Agencja reklamowa Impactia - ekspert w tworzeniu strategii reklamowych i kampanii marketingowych. Zbuduj z nami trwały wpływ dla Twojej marki."
+  }
+}
