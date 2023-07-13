@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Impactia",
+    "title": "Impactia - ekspert w tworzeniu strategii reklamowych",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -31,6 +31,6 @@
   "metadata": {
     "meta_author": "Me",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Agencja reklamowa Impactia - ekspert w tworzeniu strategii reklamowych i kampanii marketingowych. Zbuduj z nami trwały wpływ dla Twojej marki."
+    "meta_description": "Agencja reklamowa Impactia - ekspert w tworzeniu strategii reklamowych i kampanii marketingowych dla twojej firmy. Zbuduj z nami trwały wpływ dla Twojej marki."
   }
 }

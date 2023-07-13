@@ -120,7 +120,7 @@ const Ofertas = () => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                        <Image src={slide} alt="slides" width={600} height={500} />
                       </SwiperSlide>
                     ))}
                   </Swiper>
