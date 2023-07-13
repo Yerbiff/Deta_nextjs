@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "Oferta",
+      "url": "/oferta"
+    },
+    {
       "name": "Cennik",
       "url": "/cennik"
     },

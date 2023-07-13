@@ -1,6 +1,7 @@
 import NotFound from "@layouts/404";
 import Base from "@layouts/Baseof";
 import Kontakt from "@layouts/Kontakt";
+import Oferta from "@layouts/Oferta";
 import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Cennik from "@layouts/Cennik";
@@ -27,6 +28,8 @@ const RegularPages = ({ data }) => {
         <Kontakt data={data} />
       ) : layout === "cennik" ? (
         <Cennik data={data} />
+      ) : layout === "oferta" ? (
+        <Oferta data={data} />
       ) : layout === "faq" ? (
         <Faq data={data} />
       ) : (
