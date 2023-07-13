@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
-import mapImg from "../../public/images/map_of_poland.png"
+import mapImg from "../../public/images/mapa-Polski.png"
 import { markdownify } from "@lib/utils/textConverter";
 
 const Ofertas = () => {
@@ -45,9 +45,7 @@ const Ofertas = () => {
       title: `Najbardziej zaawansowana agencja marketingu cyfrowego i IT ${cityName}`,
       content: "Jesteśmy profesjonalną agencją reklamową, która oferuje najnowocześniejsze rozwiązania w zakresie marketingu cyfrowego i technologii informatycznych. Zapewniamy kompleksowe usługi, które przekształcają Twoje wyzwania w sukcesy. Skontaktuj się z nami już teraz!",
       images: [
-        "/images/service-slide-1.png",
         "/images/service-slide-2.png",
-        "/images/service-slide-3.png"
       ],
       button: {
         enable: true,
@@ -71,8 +69,6 @@ const Ofertas = () => {
       title: "Doświadczony zespół specjalistów o szerokim zakresie umiejętności",
       content: "Nasz zespół składa się z doświadczonych i utalentowanych osób, które posiadają szerokie kompetencje w różnych dziedzinach. Dzięki temu możemy zapewnić kompleksowe wsparcie i dostosowane rozwiązania dla Twojej firmy. Skontaktuj się z nami, aby rozpocząć współpracę!",
       images: [
-        "/images/service-slide-1.png",
-        "/images/service-slide-2.png",
         "/images/service-slide-3.png"
       ],
       button: {
@@ -165,12 +161,13 @@ const Ofertas = () => {
           {markdownify(
             workflow.title,
             "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
+            "mx-auto max-w-[600px] font-bold leading-[44px]"
           )}
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
         <Image
           src={workflow.image}
+          className="w-full"
           alt="workflow image"
           width={1920}
           height={296}
@@ -194,8 +191,8 @@ const Ofertas = () => {
                 <Image
                 src={mapImg}
                 alt="call to action image"
-                width={204}
-                height={204}
+                width={900}
+                height={853}
                 />
             </div>
             </div>

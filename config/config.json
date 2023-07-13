@@ -5,7 +5,7 @@
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
-    "logo_height": "48",
+    "logo_height": "125",
     "logo_text": "Impactia"
   },
 
@@ -30,7 +30,7 @@
 
   "metadata": {
     "meta_author": "Me",
-    "meta_image": "ogimage",
+    "meta_image": "/images/og-image.png",
     "meta_description": "Agencja reklamowa Impactia - ekspert w tworzeniu strategii reklamowych i kampanii marketingowych. Zbuduj z nami trwały wpływ dla Twojej marki."
   }
 }

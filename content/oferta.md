@@ -6,9 +6,9 @@ services:
   - title: "Najbardziej zaawansowana agencja marketingu cyfrowego i IT."
     content: "Jesteśmy profesjonalną agencją reklamową, która oferuje najnowocześniejsze rozwiązania w zakresie marketingu cyfrowego i technologii informatycznych. Zapewniamy kompleksowe usługi, które przekształcają Twoje wyzwania w sukcesy. Skontaktuj się z nami już teraz!"
     images:
-      - "/images/service-slide-1.png"
+      # - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      # - "/images/service-slide-3.png"
     button:
       enable: true
       label: "Sprawdź nas"
@@ -26,8 +26,8 @@ services:
   - title: "Doświadczony zespół specjalistów o szerokim zakresie umiejętności"
     content: "Nasz zespół składa się z doświadczonych i utalentowanych osób, które posiadają szerokie kompetencje w różnych dziedzinach. Dzięki temu możemy zapewnić kompleksowe wsparcie i dostosowane rozwiązania dla Twojej firmy. Skontaktuj się z nami, aby rozpocząć współpracę!"
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
+      # - "/images/service-slide-1.png"
+      # - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
     button:
       enable: true

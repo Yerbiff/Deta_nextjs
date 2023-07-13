@@ -30,21 +30,17 @@
           "url": "/cennik"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Sprawdź oferte",
+          "url": "/oferte"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Oferta",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
+          "text": "Oferta",
+          "url": "/oferta"
         },
         {
           "text": "Cennik",
@@ -53,7 +49,7 @@
       ]
     },
     {
-      "name": "Support",
+      "name": "Pomoc",
       "menu": [
         {
           "text": "FAQ",

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
-import mapImg from "../public/images/map_of_poland.png"
+import mapImg from "../public/images/mapa-Polski.png"
 const Oferta = ({ data }) => {
     const { frontmatter} = data;
     const {services, workflow, call_to_action } = frontmatter;
@@ -98,7 +98,7 @@ const Oferta = ({ data }) => {
           {markdownify(
             workflow.title,
             "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
+            "mx-auto max-w-[500px] font-bold leading-[44px]"
           )}
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
@@ -127,8 +127,8 @@ const Oferta = ({ data }) => {
                 <Image
                 src={mapImg}
                 alt="call to action image"
-                width={204}
-                height={204}
+                width={900}
+                height={853}
                 />
             </div>
             </div>
